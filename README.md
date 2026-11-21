@@ -1,6 +1,6 @@
 # SARAN – Go Anywhere — Legal, Privacy & Data Compliance Portal
 
-Official static website hosting the **Privacy Policy**, **Terms of Service**, **Data Sources & Disclaimer**, and **Account Deletion** portal for **SARAN – Go Anywhere** (Android Package: `com.sarandev.transitapp`), published by **Saran Mobility**.
+Official static website hosting the **Privacy Policy**, **Terms of Service**, **Data Sources & Disclaimer**, and **Account Deletion** portal for **SARAN – Go Anywhere**, published by **Saran Mobility**.
 
 Designed for complete compliance with **Google Play Developer Policies**, specifically:
 - **Misleading Claims & Non-Government Disclaimer**
@@ -116,6 +116,5 @@ For complete data source disclosures and attributions, visit: https://dragrex1.g
 ## 📬 Contact & Publisher
 
 - **Application:** SARAN – Go Anywhere
-- **Android Package:** `com.sarandev.transitapp`
 - **Publisher / Developer:** Saran Mobility
-- **Developer Contact:** [bijoymandi50@gmail.com](mailto:bijoymandi50@gmail.com)
+- **Developer Contact:** [saranapp@zohomail.in](mailto:saranapp@zohomail.in)
