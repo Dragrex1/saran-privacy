@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="#075c51" name="theme-color"/>
+  <meta content="Official GTFS data sources, independently compiled transit information, non-government disclaimer, and data verification links for SARAN – Go Anywhere." name="description"/>
+  <title>Transport Data Sources &amp; Disclaimer | SARAN – Go Anywhere</title>
+  <link href="saran-logo.webp" rel="icon" type="image/webp"/>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./">
+        <img alt="Saran logo" src="saran-logo.webp"/>
+        <span>Saran <span class="brand-sub">Mobility</span></span>
+      </a>
+      <nav aria-label="Main navigation" class="nav-links">
+        <a href="./">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a class="active" href="data-sources.html">Data Sources &amp; Disclaimer</a>
+        <a href="delete-account.html">Delete Account</a>
+        <a class="contact-link" href="mailto:bijoymandi50@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="hero-backdrop" aria-hidden="true">
+      <picture>
+        <source media="(max-width: 640px)" srcset="hero-mobile.jpg"/>
+        <source media="(max-width: 1024px)" srcset="hero-tablet.jpg"/>
+        <img alt="" class="hero-art" src="hero-desktop.jpg"/>
+      </picture>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-inner">
+      <span class="tag">SARAN – Go Anywhere · Legal &amp; Transparency</span>
+      <h1>SARAN – Transport Data Sources &amp; Disclaimer</h1>
+      <p>Data transparency, official open transit attributions, independent data compilation disclosures, and non-government disclaimer for the SARAN Android application.</p>
+      <div class="hero-meta">
+        <span>SARAN – Go Anywhere</span>
+        <span>Package: com.sarandev.transitapp</span>
+        <span>Developer: Saran Mobility</span>
+        <span>Bus · Metro · Train · Ferry</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container content">
+    <aside aria-label="On this page" class="toc">
+      <div class="toc-heading">On this page</div>
+      <a href="#disclaimer">Independent App Disclaimer</a>
+      <a href="#gtfs-sources">Official GTFS Sources</a>
+      <a href="#railway-verification">Railway Verification</a>
+      <a href="#independent-data">Independently Compiled Data</a>
+      <a href="#generated-info">SARAN-Generated Guidance</a>
+      <a href="#limitations">Data Limitations &amp; Scope</a>
+      <a href="#directory">Source Directory</a>
+      <a href="#contact">Report Transit Data Issues</a>
+    </aside>
+
+    <main class="article">
+      <!-- 01 · Independent App Disclaimer -->
+      <section class="intro" id="disclaimer">
+        <span class="label">01 · Essential Notice</span>
+        <h2>Independent Non-Government Application Disclaimer</h2>
+        
+        <div class="disclaimer-box">
+          <h3>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+              <line x1="12" y1="9" x2="12" y2="13"></line>
+              <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+            Important Government Non-Affiliation Disclaimer
+          </h3>
+          <p><strong>SARAN – Go Anywhere</strong> is an independently developed public transport information and navigation application published by <strong>Saran Mobility</strong> (Android package: <code class="code-pill">com.sarandev.transitapp</code>).</p>
+          <p><strong>SARAN is not a government application</strong> and is not affiliated with, authorized by, endorsed by, or operated by the Government of India, the Ministry of Railways, Indian Railways, any state road transport corporation, municipal corporation, or any government transit agency.</p>
+          <p><strong>SARAN does not provide official government services</strong>, does not sell official tickets or reservations, and does not act as an official government communications channel. All journey calculations, routing recommendations, and offline transit schedules are offered solely for informational and personal mobility assistance.</p>
+        </div>
+
+        <p>This page discloses the exact origin of all transit data utilized by SARAN, distinguishes between official open data feeds and independently compiled datasets, and provides direct links to original government publications and official verification portals.</p>
+      </section>
+
+      <!-- 02 · Official GTFS Data Sources -->
+      <section class="section" id="gtfs-sources">
+        <h2>2. Official GTFS Data Sources</h2>
+        <p>Where available and supported, SARAN integrates publicly published General Transit Feed Specification (GTFS) datasets released by transit operators under open data initiatives. SARAN accesses only publicly published datasets without modification to their original schedule substance.</p>
+        <p>The following are the original publication portals for official open transit datasets utilized by SARAN:</p>
+
+        <ul>
+          <li>
+            <strong>Delhi Open Transit Data – Bus GTFS:</strong><br/>
+            Original publication portal: <a href="https://otd.delhi.gov.in/documentation/" target="_blank" rel="noopener noreferrer">https://otd.delhi.gov.in/documentation/</a><br/>
+            <span class="source-meta">Provides static GTFS route and schedule data published through the Government of NCT of Delhi Open Transit Data portal.</span>
+          </li>
+          <li>
+            <strong>Telangana State Road Transport Corporation (TGSRTC) – Bus GTFS:</strong><br/>
+            Original publication portal: <a href="https://tgsrtc.telangana.gov.in/open-data" target="_blank" rel="noopener noreferrer">https://tgsrtc.telangana.gov.in/open-data</a><br/>
+            <strong>Attribution:</strong> Contains data provided by TGSRTC.<br/>
+            <span class="source-meta">Provides bus schedules, stop locations, and route paths published via TGSRTC's official open data portal.</span>
+          </li>
+          <li>
+            <strong>Hyderabad Metro Rail Limited (HMRL) – Metro GTFS:</strong><br/>
+            Original publication portal: <a href="https://hmrl.co.in/open-data/" target="_blank" rel="noopener noreferrer">https://hmrl.co.in/open-data/</a><br/>
+            <strong>Attribution:</strong> Contains data provided by Hyderabad Metro Rail Ltd.<br/>
+            <span class="source-meta">Provides metro lines, station coordinates, and service schedules published via HMRL's official open data portal.</span>
+          </li>
+        </ul>
+
+        <p><strong>Non-endorsement notice:</strong> The inclusion and utilization of publicly published transit data does not signify, imply, or constitute any endorsement, sponsorship, partnership, or affiliation of SARAN by TGSRTC, HMRL, the Government of Delhi, or any other transit authority.</p>
+      </section>
+
+      <!-- 03 · Official Railway Verification -->
+      <section class="section" id="railway-verification">
+        <h2>3. Official Railway Verification Sources</h2>
+        <p>SARAN provides railway timetable information to help passengers plan multi-modal connections between trains, metro systems, and local buses. To ensure complete transparency, passengers should verify all train timings, platform assignments, seat availability, and live running status directly through official Indian Railways portals:</p>
+
+        <ul>
+          <li>
+            <strong>Indian Railways – Passenger Enquiry:</strong><br/>
+            Official Portal: <a href="https://www.indianrail.gov.in/" target="_blank" rel="noopener noreferrer">https://www.indianrail.gov.in/</a><br/>
+            <span class="source-meta">Official passenger information service operated by the Centre for Railway Information Systems (CRIS) for Indian Railways.</span>
+          </li>
+          <li>
+            <strong>National Train Enquiry System (NTES):</strong><br/>
+            Official Portal: <a href="https://enquiry.indianrail.gov.in/ntes/" target="_blank" rel="noopener noreferrer">https://enquiry.indianrail.gov.in/ntes/</a><br/>
+            <span class="source-meta">Official live train tracking, schedule lookup, and train running status portal of Indian Railways.</span>
+          </li>
+        </ul>
+
+        <p><strong>Verification status:</strong> These links are provided solely as independent external verification sources for the convenience of passengers. Linking to these official websites does not represent, establish, or imply any partnership, agreement, authorization, or government affiliation between Saran Mobility and Indian Railways or the Ministry of Railways.</p>
+      </section>
+
+      <!-- 04 · Independently Collected Transit Data -->
+      <section class="section" id="independent-data">
+        <h2>4. Independently Collected &amp; Processed Transit Data</h2>
+        <p>In many regions and transit modes across India (such as municipal buses, shared local transit, suburban tramways, and inland river ferries), official GTFS feeds are not yet published or publicly maintained by local operators. For these supported regions, SARAN independently collects, digitizes, structures, and compiles public transit information.</p>
+        <p>This independently compiled data may include:</p>
+        <ul>
+          <li><strong>Routes and route numbers:</strong> Publicly advertised bus route codes, terminus names, and corridor designations.</li>
+          <li><strong>Stops and station coordinates:</strong> Geographic coordinates of physical bus stands, ferry ghats, tram stops, and suburban railway stations.</li>
+          <li><strong>Published schedules:</strong> Operating hours, first/last departure intervals, and timetable notices published at stations, terminals, or printed leaflets.</li>
+          <li><strong>Route geometry:</strong> Road alignments and navigation paths mapped to enable map rendering and journey planning.</li>
+          <li><strong>Available transport connections:</strong> Walking transfer points between adjacent transit modes (e.g. ferry ghat to suburban train station or bus terminus).</li>
+        </ul>
+        <p><strong>Important distinction:</strong> Independently collected and processed data is compiled through public research, field verification, and open community sources. <em>It is never labeled or represented as government-published GTFS data.</em> Where an official open data feed is absent, SARAN clearly designates the dataset as independently compiled.</p>
+      </section>
+
+      <!-- 05 · SARAN-Generated Information -->
+      <section class="section" id="generated-info">
+        <h2>5. SARAN-Generated Routing &amp; Guidance Information</h2>
+        <p>SARAN utilizes proprietary routing algorithms, local spatial graphs, and offline graph engines to compute comprehensive journey options. The following elements are generated independently by SARAN:</p>
+        <ul>
+          <li><strong>Point-to-point journey planning:</strong> Multi-modal route solutions connecting arbitrary coordinates, landmarks, or addresses.</li>
+          <li><strong>Walking connections:</strong> Estimated walking paths, pedestrian distances, and transfer links between stops, stations, and platforms.</li>
+          <li><strong>Transfer suggestions:</strong> Interchange recommendations based on proximity, historical frequency, and connecting service windows.</li>
+          <li><strong>Journey time &amp; fare estimates:</strong> Algorithmic duration estimates and approximate fare calculations based on published fare stages.</li>
+          <li><strong>Turn-by-turn navigation guidance:</strong> Device-side GPS location tracking, upcoming stop alerts, and arrival notifications during an active trip.</li>
+        </ul>
+        <p><strong>Notice:</strong> All journey recommendations, walking estimates, and transfer timings are algorithmic computations produced solely by SARAN. They are not produced, reviewed, or verified by any transport operator or government entity. Real-world conditions—including traffic congestion, road diversions, strikes, weather, and operator cancellations—may impact journey outcomes.</p>
+      </section>
+
+      <!-- 06 · Data Limitations -->
+      <section class="section" id="limitations">
+        <h2>6. Data Limitations &amp; Passenger Responsibility</h2>
+        <p>While Saran Mobility strives to maintain accurate and up-to-date transit information, users must be aware of the inherent limitations of transit data:</p>
+        <ul>
+          <li><strong>Schedules and routes change:</strong> Transit operators frequently modify timetables, adjust route numbers, alter stop locations, or cancel trips without prior public notice.</li>
+          <li><strong>Outdated or incomplete information:</strong> Offline databases packaged with or downloaded by the app reflect the data available at the time of publication and may become outdated until the next database refresh.</li>
+          <li><strong>Inaccuracies in independently compiled data:</strong> Road conditions, physical stop removals, or informal route changes may cause discrepancies in independently collected datasets.</li>
+          <li><strong>Live tracking availability:</strong> Real-time vehicle positions, arrival predictions, and delay alerts are only available where explicitly supported by live operator feeds and active network connectivity.</li>
+          <li><strong>No guarantee of completeness:</strong> SARAN does not warrant that all transit services, schedules, fares, or vehicle positions are current, complete, or error-free.</li>
+        </ul>
+        <p><strong>Passenger responsibility:</strong> Passengers are strongly advised to verify critical travel details—especially late-night services, long-distance railway journeys, connecting departures, and platform announcements—directly with official station staff, physical signage, and official operator helplines.</p>
+      </section>
+
+      <!-- 07 · Source Directory -->
+      <section class="section" id="directory">
+        <h2>7. Comprehensive Transport Data Directory</h2>
+        <p>The directory below provides a transparent breakdown of every transport dataset currently utilized or planned in SARAN, its source category, attribution status, and original verification portal.</p>
+
+        <div class="source-table-wrap">
+          <table class="source-table">
+            <thead>
+              <tr>
+                <th>Country / Region</th>
+                <th>Mode</th>
+                <th>Operator / Authority</th>
+                <th>Data Classification</th>
+                <th>Original Source / Portal</th>
+                <th>Official Verification Link</th>
+                <th>Status / Last Update</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>India</strong><br/>Delhi NCR</td>
+                <td>Bus</td>
+                <td>Delhi Transport Corporation (DTC) / DIMTS</td>
+                <td><span class="badge badge-official">Official Open GTFS</span></td>
+                <td><a href="https://otd.delhi.gov.in/documentation/" target="_blank" rel="noopener noreferrer">otd.delhi.gov.in</a></td>
+                <td><a href="https://otd.delhi.gov.in/" target="_blank" rel="noopener noreferrer">Delhi OTD Portal</a></td>
+                <td>Verified Open Dataset</td>
+              </tr>
+              <tr>
+                <td><strong>India</strong><br/>Telangana (Hyderabad)</td>
+                <td>Bus</td>
+                <td>Telangana State Road Transport Corporation (TGSRTC)</td>
+                <td><span class="badge badge-official">Official Open GTFS</span></td>
+                <td><a href="https://tgsrtc.telangana.gov.in/open-data" target="_blank" rel="noopener noreferrer">tgsrtc.telangana.gov.in</a></td>
+                <td><a href="https://tgsrtc.telangana.gov.in/" target="_blank" rel="noopener noreferrer">TGSRTC Portal</a></td>
+                <td>Contains data provided by TGSRTC</td>
+              </tr>
+              <tr>
+                <td><strong>India</strong><br/>Telangana (Hyderabad)</td>
+                <td>Metro</td>
+                <td>Hyderabad Metro Rail Limited (HMRL)</td>
+                <td><span class="badge badge-official">Official Open GTFS</span></td>
+                <td><a href="https://hmrl.co.in/open-data/" target="_blank" rel="noopener noreferrer">hmrl.co.in/open-data/</a></td>
+                <td><a href="https://hmrl.co.in/" target="_blank" rel="noopener noreferrer">HMRL Official Site</a></td>
+                <td>Contains data provided by HMRL</td>
+              </tr>
+              <tr>
+                <td><strong>India</strong><br/>National Network</td>
+                <td>Suburban &amp; Long-Distance Rail</td>
+                <td>Indian Railways</td>
+                <td><span class="badge badge-verification">Independent Verification</span></td>
+                <td>Public Railway Timetables</td>
+                <td><a href="https://www.indianrail.gov.in/" target="_blank" rel="noopener noreferrer">indianrail.gov.in</a> &amp; <a href="https://enquiry.indianrail.gov.in/ntes/" target="_blank" rel="noopener noreferrer">NTES</a></td>
+                <td>External Verification Links Only</td>
+              </tr>
+              <tr>
+                <td><strong>India</strong><br/>West Bengal (Kolkata Region)</td>
+                <td>Bus</td>
+                <td>West Bengal Transport Corporation (WBTC) / Private Operators</td>
+                <td><span class="badge badge-independent">Independently Compiled</span></td>
+                <td>Publicly advertised routes, timetables &amp; field survey</td>
+                <td><span class="badge badge-pending">Official GTFS Pending</span></td>
+                <td>Independently compiled by SARAN</td>
+              </tr>
+              <tr>
+                <td><strong>India</strong><br/>West Bengal (Kolkata)</td>
+                <td>Ferry</td>
+                <td>WBTC / Hooghly River Ferry Services</td>
+                <td><span class="badge badge-independent">Independently Compiled</span></td>
+                <td>Ghat timetable charts &amp; published schedules</td>
+                <td><span class="badge badge-pending">Official GTFS Pending</span></td>
+                <td>Independently compiled by SARAN</td>
+              </tr>
+              <tr>
+                <td><strong>India</strong><br/>West Bengal (Kolkata)</td>
+                <td>Tram</td>
+                <td>WBTC Kolkata Tramways</td>
+                <td><span class="badge badge-independent">Independently Compiled</span></td>
+                <td>Depot notices &amp; published operational lines</td>
+                <td><span class="badge badge-pending">Official GTFS Pending</span></td>
+                <td>Independently compiled by SARAN</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="source-meta"><strong>Note on future additions:</strong> Where no official GTFS feed has been released or verified by an authority, SARAN explicitly designates the status as <em>Official GTFS Pending / Independently Compiled</em> rather than displaying unverified or unrelated government links.</p>
+      </section>
+
+      <!-- 08 · Contact -->
+      <section class="section" id="contact">
+        <h2>8. Corrections &amp; Transit Data Inquiries</h2>
+        <p>If you represent a transport authority or transit agency and wish to update your agency's open data feeds, report an error in independently compiled routes, or provide updated GTFS publications, please contact us:</p>
+        
+        <div class="contact">
+          <strong>Saran Mobility — Transit Data Operations</strong><br/>
+          Application: <strong>SARAN – Go Anywhere</strong><br/>
+          Package Name: <code class="code-pill">com.sarandev.transitapp</code><br/>
+          Inquiry Email: <a href="mailto:bijoymandi50@gmail.com?subject=SARAN%20Transit%20Data%20Inquiry">bijoymandi50@gmail.com</a><br/>
+          Publisher: <strong>Saran Mobility</strong>
+        </div>
+      </section>
+
+      <div class="callout">
+        <h2>Review our Legal &amp; Privacy Policies</h2>
+        <p>Learn how SARAN handles user privacy, local data storage, and terms of service.</p>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 12px;">
+          <a class="primary-button" href="./">Privacy Policy →</a>
+          <a class="primary-button" style="background: #183a37;" href="terms.html">Terms of Service →</a>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="foot-brand">
+        <img alt="" src="saran-logo.webp"/>
+        Saran Mobility · © 2026
+      </div>
+      <nav class="footer-links">
+        <a href="./">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="data-sources.html">Data Sources &amp; Disclaimer</a>
+        <a href="delete-account.html">Delete Account</a>
+        <a href="mailto:bijoymandi50@gmail.com">Email Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
